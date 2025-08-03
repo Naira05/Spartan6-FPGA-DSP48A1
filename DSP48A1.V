@@ -35,10 +35,11 @@ wire [35:0] multiplier_out;
 wire [47:0] x_mux_out, z_mux_out;
 wire [47:0] postadder_out;
 wire postadder_carryin, postadder_carryout;
+wire [7:0] OPMODE_reg_out;
 
 //D register
 Reg_Mux #(.RST_TYPE(RSTTYPE), .size(18)) D_reg (
-    .rst(RSTA), .clk(clk), .sel(1'b1), .enable(CEA),
+    .rst(RSTD), .clk(clk), .sel(1'b1), .enable(CEA),
     .in(D), .out(d_reg_out)
 );
 //A0 register
@@ -63,13 +64,12 @@ Reg_Mux #(.RST_TYPE(RSTTYPE), .size(18)) B0_reg (
 );
 
 // OPMODE register
-wire [7:0] OPMODE_reg_out;
 Reg_Mux #(.RST_TYPE(RSTTYPE), .size(8)) OPMODE_reg (
     .rst(RST_OPMODE), .clk(clk), .sel(1'b1), .enable(CE_OPMODE),
     .in(OPMODE), .out(OPMODE_reg_out)
 );
 
-// Pre-adder (D +/- B0)
+// Pre-adder 
 assign preadder_out = (OPMODE_reg_out[6]) ? (d_reg_out - b0_reg_out) : (d_reg_out + b0_reg_out);
 
 // B1 register
@@ -133,7 +133,7 @@ Reg_Mux #(.RST_TYPE(RSTTYPE), .size(48)) P_reg (
     .in(postadder_out), .out(p_reg_out)
 );
 
-// Output assignments
+// Output
 assign Bcout = b1_reg_out;
 assign Pcout = p_reg_out[17:0];
 assign P = p_reg_out;

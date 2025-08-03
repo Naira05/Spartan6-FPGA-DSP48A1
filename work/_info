@@ -1,6 +1,20 @@
 m255
 K4
 z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -8,50 +22,128 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dE:/Summer_2025/EDA/midterm
+Z1 dE:/Summer_2025/EDA/midterm
+T_opt
+!s110 1754235526
+VVKLM>Q_Aa5KkRP`H_eUoi2
+Z2 04 10 4 work DSP48A1_tb fast 0
+=1-04bf1b248b7b-688f8286-161-2130
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+T_opt1
+!s110 1754234946
+VH5dR07E^09hTBC^Ed7BlP3
+04 10 4 work tb_DSP48A1 fast 0
+=1-04bf1b248b7b-688f8041-3c4-4414
+R3
+Z6 o-quiet -auto_acc_if_foreign -work work
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1754234975
+VUF8@PK3BibGi_RW1;;cRD0
+R2
+=1-04bf1b248b7b-688f805f-240-32dc
+R3
+R6
+R4
+n@_opt2
+R5
+R1
 vDSP48A1
-!s110 1754229197
+Z7 !s110 1754235519
 !i10b 1
-!s100 ;BF1@_AI[TClO0Jhi8AC=3
-IQ11@4F?7e;OndNz^CQ1]M2
-Z0 dE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1
-w1754229191
+!s100 YbBY`@l^cc60V<GH6XB^>2
+IX;3AdD5;Xh7>9fP2=OJ@50
+Z8 dE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1
+w1754233717
 8E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V
 FE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V
-!i122 0
+!i122 24
 L0 1 144
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 OL;L;2021.1;73
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
 r1
 !s85 0
 31
-!s108 1754229197.000000
+Z11 !s108 1754235519.000000
 !s107 E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V|
 !i113 0
-Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z4 tCvgOpt 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
 n@d@s@p48@a1
-vReg_Mux
-!s110 1754229200
+vDSP48A1_tb
+R7
 !i10b 1
-!s100 fd[bdQQgOf3e1V^@10MXe0
-I9K=9RIJg32iAVchSWnN9G0
-R0
-w1754229040
-8E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V
-FE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V
-!i122 1
-L0 1 30
-R1
-R2
+!s100 0Qk3K_Cd?<POnjVl6J7Ua2
+IX^A]OeJL<kcAzc:55Edi:2
+R8
+w1754235424
+Z13 8E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/tb_DSP48A1.v
+Z14 FE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/tb_DSP48A1.v
+!i122 26
+L0 1 82
+R9
+R10
 r1
 !s85 0
 31
-!s108 1754229200.000000
+R11
+Z15 !s107 E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/tb_DSP48A1.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/tb_DSP48A1.v|
+!i113 0
+R12
+R4
+n@d@s@p48@a1_tb
+vReg_Mux
+R7
+!i10b 1
+!s100 fd[bdQQgOf3e1V^@10MXe0
+I9K=9RIJg32iAVchSWnN9G0
+R8
+w1754229040
+8E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V
+FE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V
+!i122 25
+L0 1 30
+R9
+R10
+r1
+!s85 0
+31
+R11
 !s107 E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V|
 !i113 0
-R3
+R12
 R4
 n@reg_@mux
+vtb_DSP48A1
+!s110 1754231249
+!i10b 1
+!s100 JVjQ]F]<o1QBCG;JLOSd`3
+I:D49O[X5iG^7?LC85]fgN0
+R8
+w1754231226
+R13
+R14
+!i122 12
+L0 1 180
+R9
+R10
+r1
+!s85 0
+31
+!s108 1754231249.000000
+R15
+R16
+!i113 0
+R12
+R4
+ntb_@d@s@p48@a1
