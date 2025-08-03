@@ -1,0 +1,3 @@
+-f E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/qcache/LINT/SEARCH/SIM/vsim_tb_replay_top_modules.arg \
+-L work \
+-voptargs="-assertdebug"

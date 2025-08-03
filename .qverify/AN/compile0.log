@@ -1,0 +1,9 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 20:09:53 on Aug 03,2025
+vlog E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V -work work 
+-- Compiling module Reg_Mux
+
+Top level modules:
+	Reg_Mux
+End time: 20:09:53 on Aug 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

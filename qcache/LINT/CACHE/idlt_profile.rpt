@@ -1,0 +1,37 @@
+================================================================================
+== Profile: REAL-TIME, CPU-freq = 0.00 GHz
+                                                          Calls Real-Time  Parent 
+                                                                   (secs) fraction
+
+    <zixl_543IiP35>~_zixl                                                1 16461830193.0 (100.0%)
+  zixl_z57-ZAiL~_zixl                                                    1 16461830193.0         
+    zixl_iSe2-4IPr155~_zixl                                              1 902315304.0 (  5.5%)
+      zixl_tP42-1eAyPIA2iPL~_zixl                                        1 545883433.0 ( 60.5%)
+        zixl_tP42-ZAiL~_zixl                                             1 445799074.0 ( 81.7%)
+          zixl_bgV-NIAL5eA2iPL~_zixl                                     1 104693897.0 ( 23.5%)
+            zixl_iSe2-2IAL5eA21-tePq~_zixl                               1 69835479.0 ( 66.7%)
+              zixl_2IAL5eA2iLq~_zixl                                     1 69721993.0 ( 99.8%)
+                <zixl_I152>~_zixl                                          69233513.0 ( 99.3%)
+            zixl_V91rdrP41 [R]~_zixl                                    21 4964032.0 (  4.7%)
+            <zixl_I152>~_zixl                                              29894386.0 ( 28.6%)
+          zixl_eiL2-4I1-1eAy-rAeeyAr8~_zixl                              6 21174882.0 (  4.7%)
+            zixl_V91rdrP41 [E]~_zixl                                     5  626588.0 (  3.0%)
+            <zixl_I152>~_zixl                                              20548294.0 ( 97.0%)
+          <zixl_I152>~_zixl                                                319584437.0 ( 71.7%)
+        <zixl_I152>~_zixl                                                  100084359.0 ( 18.3%)
+      zixl_bgV-I152PI1-UPI8-ZA44iLq~_zixl                                1 141391856.0 ( 15.7%)
+      zixl_5At1-tP42-SA2A~_zixl                                          1 21683516.0 (  2.4%)
+        zixl_iSe2-5At1~_zixl                                             1 21676206.0 (100.0%)
+          zixl_42-5At1~_zixl                                             1 18784632.0 ( 86.7%)
+          zixl_iSe2-32q-5At1~_zixl                                       1 1282518.0 (  5.9%)
+          zixl_4rSy-5At1-iL21IZ1SiA21~_zixl                              1  641768.0 (  3.0%)
+          <zixl_I152>~_zixl                                                 967288.0 (  4.5%)
+      <zixl_I152>~_zixl                                                    189882287.0 ( 21.0%)
+    <zixl_I152>~_zixl                                                      15559496413.0 ( 94.5%)
+
+
+================================================================================
+== Profile: PEAK-MEMORY, CPU-freq = 0.00 GHz
+                                                          Calls   Peak-Mb         
+                                                                                  
+

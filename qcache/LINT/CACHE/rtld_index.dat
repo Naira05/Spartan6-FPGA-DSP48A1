@@ -1,0 +1,12 @@
+>8
+v366
+t6
+c7
+#0 p0 @zi_dff_o18_i18_5*i1_i18_3*i1
+#1 p277 @zi_mux_o18_i1_2*i18
+#2 p442 @zi_const_1'b1_o1
+#3 p563 @zi_oper_14_o1_2*i1
+#4 p709 @zi_const_18'b0_o18
+#5 p837 @zi_assign_o18_i18
+#6 p970 @Reg_Mux
+<8
