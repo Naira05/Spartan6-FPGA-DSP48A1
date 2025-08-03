@@ -26,5 +26,4 @@ generate
 endgenerate
 
 assign out = (sel == 1'b1) ? out_reg : {size{1'b0}};
-
 endmodule

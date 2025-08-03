@@ -16,6 +16,9 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -25,10 +28,10 @@ R0
 cModel Technology
 Z1 dE:/Summer_2025/EDA/midterm
 T_opt
-!s110 1754236163
-V9m_Z?i4C8j314bD3_lYoX2
+!s110 1754239607
+V43UOCfgL9dfQY1haOfh0P3
 Z2 04 10 4 work DSP48A1_tb fast 0
-=1-04bf1b248b7b-688f8503-154-1374
+=1-04bf1b248b7b-688f9277-2e2-5040
 Z3 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z4 tCvgOpt 0
@@ -57,22 +60,22 @@ n@_opt2
 R5
 R1
 vDSP48A1
-Z7 !s110 1754236159
+Z7 !s110 1754239602
 !i10b 1
-!s100 YbBY`@l^cc60V<GH6XB^>2
-IX;3AdD5;Xh7>9fP2=OJ@50
+!s100 SE;>EVVnXE;l;OU44ofUH3
+IP:4gI]=0HFij>5HAmc@Vz1
 Z8 dE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1
-w1754233717
+w1754239187
 8E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V
 FE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V
-!i122 27
-L0 1 144
+!i122 34
+L0 1 146
 Z9 VDg1SIo80bB@j0V0VzS_@n1
 Z10 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z11 !s108 1754236159.000000
+Z11 !s108 1754239602.000000
 !s107 E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/DSP48A1.V|
 !i113 0
@@ -82,14 +85,14 @@ n@d@s@p48@a1
 vDSP48A1_tb
 R7
 !i10b 1
-!s100 VWDdj@_UUXUdkegCG:N6H0
-IG>0SPc^;J:o:2IlF8dbhC1
+!s100 @F7HfkM@3bg2f5P]emTPd0
+I_M8i=k>cVE;gG:NcF8?nd2
 R8
-w1754236136
+w1754239490
 Z13 8E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/tb_DSP48A1.v
 Z14 FE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/tb_DSP48A1.v
-!i122 29
-L0 1 82
+!i122 36
+L0 1 90
 R9
 R10
 r1
@@ -105,14 +108,14 @@ n@d@s@p48@a1_tb
 vReg_Mux
 R7
 !i10b 1
-!s100 fd[bdQQgOf3e1V^@10MXe0
-I9K=9RIJg32iAVchSWnN9G0
+!s100 TD9b;ad^F:XbTC9f@K?>82
+Id;`Bcc`B[jUF:PJcLeFEE0
 R8
-w1754229040
+w1754237283
 8E:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V
 FE:/digital_design_course/DSP_Project/Spartan6-FPGA-DSP48A1/Reg_Mux.V
-!i122 28
-L0 1 30
+!i122 35
+L0 1 29
 R9
 R10
 r1
