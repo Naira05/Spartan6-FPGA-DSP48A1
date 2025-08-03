@@ -43,35 +43,35 @@ module DSP48A1_tb;
         {RSTA, RSTB, RSTM, RSTP, RSTC, RSTD, RSTCarryIn, RST_OPMODE} = 8'b0000_0000;
 
         // Test Case 1
-        A = 5;
+        A = 9;
         B = 4;
-        C = 7;
-        D = 10;
+        C = 5;
+        D = 1;
         OPMODE = 8'b00111101;
         carryIn = 1'b1;
         repeat (4) @(negedge clk);
 
         // Test Case 2
-        A = 2;
-        B = 5;
-        C = 7;
-        D = 15;
+        A = 3;
+        B = 8;
+        C = 10;
+        D = 20;
         OPMODE = 8'b11010111;
         PCIN = 48'h00f0000f0000;
         repeat (4) @(negedge clk);
 
         // Test Case 3
-        A = 10;
-        B = 5;
+        A = 6;
+        B = 1;
         C = 7;
-        D = 15;
+        D = 13;
         OPMODE = 8'b01001010;
         repeat (4) @(negedge clk);
 
         // Test Case 4
-        A = 15;
-        B = 30;
-        C = 7;
+        A = 6;
+        B = 3;
+        C = 9;
         D = 15;
         OPMODE = 8'b10000000;
         repeat (4) @(negedge clk);
